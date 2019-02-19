@@ -1,0 +1,59 @@
+
+body{
+	background-image:url(img/fond.png);
+}
+
+
+header{
+	background-color:grey;
+	text-align: center;
+}
+
+
+.presentation{
+	width: 50%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.recette{
+	width:70%; 
+	text-align: center;
+	background-color:white;
+
+}
+
+.burger{
+	width:30%;
+	float: left;
+	margin-left:10px;
+
+}
+
+.fish{
+	width:30%;
+	float:left;
+	margin-left:10px; 
+}
+
+.Image{
+	float:left;
+}
+
+.cote{
+	width: 8%;
+	float:left;
+	background-color:red;
+	font-size: 10px;
+}
+ .lol{
+ 	background-color:white;
+ }
+
+ .clear{
+ 	clear:both;
+ }
+
+ .blanc{
+ 	background-color:white;
+ }

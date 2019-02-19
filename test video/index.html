@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<video poster="video.mp4" src="video.mp4" controls> 
+</video>
+
+<a class="button"> OK</a>
+<div class='content'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat reiciendis sit officia cum culpa placeat quibusdam asperiores beatae, tempore debitis amet voluptate tempora commodi voluptates dolorum sed ullam rem quidem.</div>
+	<script src="jquery-3.3.1.min.js"></script>
+
+	<script> 
+	$(function(){
+		$(".content").css('background-color','green');
+
+	
+
+$(".button").click(function(){
+		$(".content").css('background-color','red');
+
+$(".content").html("salut");
+$(".content").toggle(1000);
+
+	});
+	});
+
+
+
+	</script>
+</body>
+</html>

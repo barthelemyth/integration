@@ -1,0 +1,179 @@
+
+
+body{
+	background-image: url('img/fond.png')
+}
+
+header >nav> ul {
+
+	justify-content:space-between;
+	list-style-type:none;
+	align-items: center;
+	animation: slide 0.5s;
+animation-iteration-count:infinite;
+}
+.f1{
+width:50%;
+display:flex;
+align-items: center;
+}	
+
+.f2{
+	width:50%;
+	display:flex;
+	align-items: center;
+}
+.f3{
+display:flex;
+}
+
+
+
+header >nav> ul> li{
+	padding:1em;
+	width:15%;
+	
+}
+
+
+.image{
+	width:50px;
+}
+
+.back{
+	background-image: url(img/bg_header.png);
+	background-position: cover;
+	color:white;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+
+.rond{
+	width:33%;
+	text-align: center;
+	animation: slide 0.5s;
+animation-iteration-count:infinite;
+}
+
+.competences{
+	display:flex;
+}
+
+.orange{
+	float:right;
+	width:500px;
+}
+
+.left{
+	float:left;
+	width:500px;
+}
+
+.msg{
+	width:50%;
+}
+.msg2{
+	width:100%;
+
+}
+
+.flexum{
+	display:flex;
+}
+
+a{
+	text-decoration: none;
+	color:grey;
+	
+	
+}
+
+a:hover{
+color:red;
+}
+
+li:hover{
+	color:red;
+	transform :translateY(1em);
+}
+
+main{
+	max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header{
+	max-width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+@keyframes slide{
+	0%{
+		transform:translateY(1em);
+	}
+	100%{
+		transform:translateY(0) ;
+	}
+}
+
+.it{
+animation: slide 0.5s;
+animation-iteration-count:infinite;
+}
+
+
+@keyframes slides{
+	0%{
+		transform:translateX(5em);
+
+	}
+	50%{transform:translateX(-5em);}
+	100%{
+		transform:translateX(0) ;
+	}
+}
+
+.hor{
+animation: slides 0.5s;
+animation-iteration-count:infinite;
+}
+
+.content{
+		max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@keyframes hypnose{
+	100%{
+	transform:rotate(360deg);
+	}
+}
+
+.image:hover{
+animation: hypnose 1s;
+animation-iteration-count:infinite;
+width:350px;
+transition:transform 0s;
+}
+
+.msg2::before {
+  content: "XXXX";
+}
+
+.position{
+	position:absolute;
+	left:4px;
+	top:5px;
+	
+}
+
+.position2{
+	position:relative;
+}

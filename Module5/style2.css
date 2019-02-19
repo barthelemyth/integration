@@ -1,0 +1,61 @@
+header{
+	background-image:url(img/fond.jpg);
+	color:white;
+	text-align: center;
+	background-size: 100%;
+    padding-bottom: 30%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+
+}
+
+header nav{
+	text-align: center
+}
+
+header a {
+	text-decoration:none;
+	display: inline-block;
+	font-size: 20px;
+ 
+}
+
+.cours{
+	float: left;
+}
+
+.posture{
+	float:right;
+}
+
+.fond{
+	background-image:url(img/background_section.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 175px;
+	text-align: center;
+
+
+}
+
+.clear{
+	clear:both;
+}
+
+.yog{
+	max-width: 30%;
+	float:left;
+	color:white;
+}
+ .carte{
+ 	width: 100%;
+ }
+
+
+
+ .container{
+ 	width: 50%;
+ 	text-align: center;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ }

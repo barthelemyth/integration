@@ -1,0 +1,53 @@
+
+body{
+background-image:url("img/fond.png")
+
+}
+
+header{
+/*background-image:url("img/logo.png");
+background-repeat:no-repeat;..>*/
+background-color:#b9c939;
+height:175px;
+}
+
+
+
+
+
+
+
+.lien{
+	/*padding-top: 50px;*/
+	/*text-align:center;*/
+	float:right;
+	margin-right: 300px;
+	margin-top:75px;
+}
+
+.image1{
+	float:left;
+	height:100px;
+	width: 200px;
+}
+
+.readmore{
+	float:right;
+	background-color:#b9c939;
+	
+}
+
+h2{
+	color:#b9c939;
+}
+
+.div2{
+	background-color: white;
+	width: 50% ;
+	margin-left:auto;
+	margin-right:auto;
+	
+
+}
+
+/*
